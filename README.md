@@ -23,9 +23,9 @@
 ## System Design
   - ### System Requirements
     <img width="678" alt="image" src="https://github.com/user-attachments/assets/372dcd20-966a-4430-8804-6fac2fa7c32f">
-    1) 시간 및 위성의 위치 정보를 바탕으로 각 지역의 수신 SNR 값을 계산
-    2) 수신 장치에서 GADM(Global Administrative Areas)에서 제공하는 대한민국의 지리 좌표 데이터를 기반으로 위도와 경도를 계산하여 각 좌표에 해당하는 SNR 값 매칭
-    3) MATLAB 환경에서 데이터 처리 속도를 높이기 위해 샘플링 후 데이터 분석 수행
+    1. 시간 및 위성의 위치 정보를 바탕으로 각 지역의 수신 SNR 값을 계산
+    2. 수신 장치에서 GADM(Global Administrative Areas)에서 제공하는 대한민국의 지리 좌표 데이터를 기반으로 위도와 경도를 계산하여 각 좌표에 해당하는 SNR 값 매칭
+    3. MATLAB 환경에서 데이터 처리 속도를 높이기 위해 샘플링 후 데이터 분석 수행
 
   - ### Scenario
     1) 실험① 에서 저궤도 위성 군집 모델 선정 (Walker Star 모델,  Waaler Delta 모델)
