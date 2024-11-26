@@ -1,4 +1,4 @@
-<img width="678" alt="image" src="https://github.com/user-attachments/assets/9fe2a762-c82b-40a2-ac66-f71307f95a99"># 한밭대학교 SW중심대학 산학연계프로젝트 - 과제명
+# 한밭대학교 SW중심대학 산학연계프로젝트 - 과제명
 
 ## **팀 구성**
 ### 지도교수
