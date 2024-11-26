@@ -1,4 +1,4 @@
-# 한밭대학교 SW중심대학 산학연계프로젝트 - 과제명
+<img width="678" alt="image" src="https://github.com/user-attachments/assets/9fe2a762-c82b-40a2-ac66-f71307f95a99"># 한밭대학교 SW중심대학 산학연계프로젝트 - 과제명
 
 ## **팀 구성**
 ### 지도교수
@@ -13,16 +13,26 @@
 
 ## Project Background
 - ### 필요성
-  - OOO
-  - OOO
+  - 통신 음영 지역 및 재난 상황에서 지상 5G 통신망의 한계 발생
+  - 저궤도 위성의 낮은 지연 시간과 넓은 커버리지 특성을 활용한 실시간 SNR 분석 필요
+ 
 - ### 기존 해결책의 문제점
-  - OOO
-  - OOO
+  - 넓은 범위와 지리적 제약을 극복할 수 있는 6G 위성통신 기술 필요
+  - 군집 모델, 궤도 평면의 수, 평면당 위성 수, 등 여러가지 파라미터를 조정하여 SNR 커버리지 맵 최적화 필요
   
 ## System Design
   - ### System Requirements
-    - OOO
-    - OOO
+    <img width="678" alt="image" src="https://github.com/user-attachments/assets/372dcd20-966a-4430-8804-6fac2fa7c32f">
+    1) 시간 및 위성의 위치 정보를 바탕으로 각 지역의 수신 SNR 값을 계산
+    2) 수신 장치에서 GADM(Global Administrative Areas)에서 제공하는 대한민국의 지리 좌표 데이터를 기반으로 위도와 경도를 계산하여 각 좌표에 해당하는 SNR 값 매칭
+    3) MATLAB 환경에서 데이터 처리 속도를 높이기 위해 샘플링 후 데이터 분석 수행
+
+  - ### Scenario
+    1) 실험① 에서 저궤도 위성 군집 모델 선정 (Walker Star 모델,  Waaler Delta 모델)
+    2) 선정된 군집모델을 통해 실험② 에서 위성 배치별 SNR 비교
+    3) 앞서 실험한 결과를 통해 적합한 군집 모델과 위성 배치 설정
+    4) 설정한 조건들로 특정 위치의 SNR 커버리지맵 추출
+    5) 특정 위치의 SNR(dBm)값 확인
     
 ## Case Study
 본 연구는 저궤도 위성을 기반으로 대한민국 지역에 대한 SNR 커버리지 맵을 시뮬레이션하고 분석하기 위해 연구를 진행하였다. 
